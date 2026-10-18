@@ -17,9 +17,9 @@ function App() {
       <SidebarNav />
       <div className="portfolio-content">
         <div id="hero"><AnimatedSlide><Hero /></AnimatedSlide></div>
+        <div id="about"><About /></div>
         <div id="projects"><Projects /></div>
         <div id="skills"><Skills /></div>
-        <div id="about"><About /></div>
         <div id="journey"><Journey /></div>
         <div id="strengths"><Strengths /></div>
         <div id="achievements"><Achievements /></div>
