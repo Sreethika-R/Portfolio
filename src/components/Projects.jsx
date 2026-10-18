@@ -72,13 +72,13 @@ function Projects() {
             </div>
 
             <div style={{ background: 'rgba(216, 181, 227, 0.08)', borderLeft: '2px solid #D8B5E3', padding: '6px 10px', borderRadius: '4px', margin: '6px 0 10px 0', fontSize: '0.82rem', color: '#F3E8F5' }}>
-              <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Enforcing strict database integrity and query efficiency under concurrent operations.
+              <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Enforcing strict database integrity and query efficiency under concurrent financial operations.
             </div>
 
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px', color: '#E8DFEC' }}>Built with a focus on database integrity and query efficiency.</p>
             <ul className="square-list" style={{ fontSize: '0.88rem', marginTop: 'auto' }}>
-              <li>Independently debugged logic errors using a methodical, root-cause approach</li>
-              <li>Implemented secure session handling and data validation workflows to protect user transactions</li>
+              <li>Designed relational SQL schemas with strict foreign-key constraints to maintain data integrity across payment tracking records</li>
+              <li>Implemented transaction-safe queries to handle concurrent updates and maintain consistent financial balances</li>
+              <li>Independently debugged core logic errors using a methodical, root-cause approach and secure session handling</li>
             </ul>
           </div>
         </AnimatedCard>
@@ -99,10 +99,9 @@ function Projects() {
             <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Resolving calendar collision and multi-user concurrency conflicts cleanly.
           </div>
 
-          <p style={{ fontSize: '0.95rem', marginBottom: '10px', color: '#E8DFEC' }}>Multi-user appointment-scheduling platform.</p>
           <ul className="square-list" style={{ fontSize: '0.9rem' }}>
-            <li>Engineered scheduling logic to process requests and resolve conflicts</li>
-            <li>Created full technical documentation, system design diagrams, and testing protocols</li>
+            <li>Engineered scheduling logic to process multi-user service-booking requests and resolve overlap conflicts before confirmation</li>
+            <li>Created full technical documentation, system design diagrams, and rigorous testing protocols</li>
           </ul>
         </div>
       </AnimatedCard>
@@ -118,12 +117,12 @@ function Projects() {
           </div>
           <p style={{ fontSize: '0.9rem', color: '#EED7FF', fontStyle: 'italic', margin: '8px 0 10px 0' }}>React, Vite, Framer Motion, Git/GitHub</p>
           <div style={{ background: 'rgba(216, 181, 227, 0.08)', borderLeft: '3px solid #D8B5E3', padding: '8px 12px', borderRadius: '4px', marginBottom: '12px', fontSize: '0.88rem', color: '#F3E8F5' }}>
-            <strong style={{ color: '#D8B5E3' }}>Architectural Focus:</strong> Building a responsive component-driven portfolio with clear project storytelling and lightweight motion.
+            <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Building a high-performance, component-driven developer portfolio optimized for recruiter scannability and smooth motion.
           </div>
           <ul className="square-list" style={{ fontSize: '0.95rem' }}>
-            <li>Built a modular React interface with Vite</li>
-            <li>Implemented responsive layouts and Framer Motion transitions</li>
-            <li>Configured GitHub-based deployment to Vercel</li>
+            <li>Architected a modular React interface with Vite for optimized performance and production bundling</li>
+            <li>Implemented responsive layouts with Framer Motion transitions and reduced-motion support</li>
+            <li>Deployed and maintained via Git/GitHub with continuous Vercel hosting</li>
           </ul>
         </div>
       </AnimatedCard>
