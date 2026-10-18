@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 
 const navItems = [
-  { id: 'about', label: 'Who I Am' },
   { id: 'projects', label: 'Recent Work' },
   { id: 'skills', label: 'My Skill Set' },
+  { id: 'about', label: 'Who I Am' },
   { id: 'journey', label: 'My Journey' },
   { id: 'strengths', label: 'My Strengths' },
   { id: 'achievements', label: 'Achievements' },
@@ -17,10 +17,10 @@ function SidebarNav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const aboutSection = document.getElementById('about')
+      const firstSection = document.getElementById(navItems[0].id)
       const scrollPosition = window.scrollY + 300
 
-      if (aboutSection && scrollPosition < aboutSection.offsetTop) {
+      if (firstSection && scrollPosition < firstSection.offsetTop) {
         setActiveId(null)
         return
       }
@@ -42,7 +42,8 @@ function SidebarNav() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      element.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' })
     }
   }
 

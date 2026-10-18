@@ -6,36 +6,7 @@ function Projects() {
       <div className="section-tracker">RECENT WORK</div>
       <h2 className="main-heading">Projects I'm proud of.</h2>
 
-      {/* Featured Project 1: Personal Portfolio */}
-      <AnimatedCard delay={0.1}>
-        <div className="editorial-card" style={{ marginBottom: '25px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '10px' }}>
-            <div>
-              <span style={{ fontSize: '0.8rem', color: '#D8B5E3', fontWeight: 600, textTransform: 'uppercase' }}>Interactive Frontend Engineering &amp; UI Design</span>
-              <h3 style={{ fontSize: '1.4rem', marginTop: '4px' }}>Personal Portfolio</h3>
-            </div>
-            <span style={{ fontSize: '0.85rem', color: '#EED7FF', fontWeight: 500 }}>Sep 2026</span>
-          </div>
-          <p style={{ fontSize: '0.9rem', color: '#EED7FF', fontStyle: 'italic', margin: '8px 0 10px 0' }}>React, Vite, Framer Motion, Tailwind CSS, Git/GitHub</p>
-          
-          {/* Hard Problem Callout - Sleek & Non-Chunky */}
-          <div style={{ background: 'rgba(216, 181, 227, 0.08)', borderLeft: '3px solid #D8B5E3', padding: '8px 12px', borderRadius: '4px', marginBottom: '12px', fontSize: '0.88rem', color: '#F3E8F5' }}>
-            <strong style={{ color: '#D8B5E3' }}>Architectural Focus:</strong> Maintaining buttery-smooth UI transitions and responsive state tracking across complex modular components without bottlenecks.
-          </div>
-
-          <p style={{ marginBottom: '12px', color: '#E8DFEC', fontSize: '0.95rem' }}>
-            Designed and built from scratch as a high-performance interactive developer portfolio to showcase technical architecture, professional milestones, and creative projects with a polished editorial aesthetic.
-          </p>
-          <ul className="square-list" style={{ fontSize: '0.95rem' }}>
-            <li>Architected a modular component-driven layout utilizing React and Vite for blazing-fast development and optimized production bundling</li>
-            <li>Engineered smooth motion systems, scroll tracking, and card animations using Framer Motion</li>
-            <li>Implemented fully responsive multi-section layouts with high-contrast editorial typography and state management</li>
-            <li>Deployed and maintained via Git/GitHub with continuous Vercel hosting</li>
-          </ul>
-        </div>
-      </AnimatedCard>
-
-      {/* Featured Project 2: SafePassage */}
+      {/* Featured Project 1: SafePassage */}
       <AnimatedCard delay={0.2}>
         <div className="editorial-card" style={{ marginBottom: '25px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '10px' }}>
@@ -44,6 +15,10 @@ function Projects() {
               <h3 style={{ fontSize: '1.4rem', marginTop: '4px' }}>SafePassage</h3>
             </div>
             <span style={{ fontSize: '0.85rem', color: '#EED7FF', fontWeight: 500 }}>Jan 2026 – Apr 2026</span>
+          </div>
+          <div className="project-metrics" role="group" aria-label="SafePassage project metrics">
+            <span className="metric-badge"><strong>108</strong> routing endpoints</span>
+            <span className="metric-badge"><strong>79</strong> automated tests</span>
           </div>
           <p style={{ fontSize: '0.9rem', color: '#EED7FF', fontStyle: 'italic', margin: '8px 0 10px 0' }}>Python, Django, SQLite, REST APIs, AI/ML</p>
 
@@ -63,7 +38,7 @@ function Projects() {
         </div>
       </AnimatedCard>
 
-      {/* Grid Projects */}
+      {/* Haritha Connect and Chai Book */}
       <div className="grid-2">
         <AnimatedCard delay={0.3}>
           <div className="editorial-card" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
@@ -72,12 +47,15 @@ function Projects() {
               <h3 style={{ fontSize: '1.25rem', marginTop: '4px' }}>Haritha Connect</h3>
               <p style={{ fontSize: '0.8rem', color: '#EED7FF', fontWeight: 500, margin: '4px 0 8px 0' }}>Python, Django · Aug 2025 – Nov 2025</p>
             </div>
+            <div className="project-metrics" role="group" aria-label="Haritha Connect project metrics">
+              <span className="metric-badge"><strong>1,000+</strong> monthly collection requests</span>
+            </div>
             
             <div style={{ background: 'rgba(216, 181, 227, 0.08)', borderLeft: '2px solid #D8B5E3', padding: '6px 10px', borderRadius: '4px', margin: '6px 0 10px 0', fontSize: '0.82rem', color: '#F3E8F5' }}>
               <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Automating multi-tiered scheduling logic for high-volume monthly workflows.
             </div>
 
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px', color: '#E8DFEC' }}>Managed over 1,000+ monthly collection requests across an isolated multi-portal system.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px', color: '#E8DFEC' }}>Managed 1,000+ monthly collection requests across an isolated multi-portal system.</p>
             <ul className="square-list" style={{ fontSize: '0.88rem', marginTop: 'auto' }}>
               <li>Designed an offline-first payment verification protocol for field operators</li>
               <li>Implemented a three-tier access control system across the isolated portals</li>
@@ -125,6 +103,27 @@ function Projects() {
           <ul className="square-list" style={{ fontSize: '0.9rem' }}>
             <li>Engineered scheduling logic to process requests and resolve conflicts</li>
             <li>Created full technical documentation, system design diagrams, and testing protocols</li>
+          </ul>
+        </div>
+      </AnimatedCard>
+
+      <AnimatedCard delay={0.6}>
+        <div className="editorial-card" style={{ marginTop: '20px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '10px' }}>
+            <div>
+              <span style={{ fontSize: '0.8rem', color: '#D8B5E3', fontWeight: 600, textTransform: 'uppercase' }}>Interactive Frontend Engineering &amp; UI Design</span>
+              <h3 style={{ fontSize: '1.25rem', marginTop: '4px' }}>Personal Portfolio</h3>
+            </div>
+            <span style={{ fontSize: '0.85rem', color: '#EED7FF', fontWeight: 500 }}>Sep 2026</span>
+          </div>
+          <p style={{ fontSize: '0.9rem', color: '#EED7FF', fontStyle: 'italic', margin: '8px 0 10px 0' }}>React, Vite, Framer Motion, Git/GitHub</p>
+          <div style={{ background: 'rgba(216, 181, 227, 0.08)', borderLeft: '3px solid #D8B5E3', padding: '8px 12px', borderRadius: '4px', marginBottom: '12px', fontSize: '0.88rem', color: '#F3E8F5' }}>
+            <strong style={{ color: '#D8B5E3' }}>Architectural Focus:</strong> Building a responsive component-driven portfolio with clear project storytelling and lightweight motion.
+          </div>
+          <ul className="square-list" style={{ fontSize: '0.95rem' }}>
+            <li>Built a modular React interface with Vite</li>
+            <li>Implemented responsive layouts and Framer Motion transitions</li>
+            <li>Configured GitHub-based deployment to Vercel</li>
           </ul>
         </div>
       </AnimatedCard>

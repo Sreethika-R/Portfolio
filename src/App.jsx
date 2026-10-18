@@ -16,16 +16,16 @@ function App() {
     <div className="portfolio-container">
       <SidebarNav />
       <div className="portfolio-content">
-        <div id="hero"><AnimatedSlide variant="scaleFade"><Hero /></AnimatedSlide></div>
-        <div id="about"><AnimatedSlide variant="slideLeft"><About /></AnimatedSlide></div>
-        <div id="projects"><AnimatedSlide variant="slideLeft"><Projects /></AnimatedSlide></div>
-        <div id="skills"><AnimatedSlide variant="blurFade"><Skills /></AnimatedSlide></div>
-        <div id="journey"><AnimatedSlide variant="fadeSlide"><Journey /></AnimatedSlide></div>
-        <div id="strengths"><AnimatedSlide variant="scaleFade"><Strengths /></AnimatedSlide></div>
-        <div id="achievements"><AnimatedSlide variant="fadeSlide"><Achievements /></AnimatedSlide></div>
-        <div id="beyond"><AnimatedSlide variant="blurFade"><Beyond /></AnimatedSlide></div>
-        <div id="goals"><AnimatedSlide variant="scaleFade"><Goals /></AnimatedSlide></div>
-        <div id="contact"><AnimatedSlide variant="fadeSlide"><Contact /></AnimatedSlide></div>
+        <div id="hero"><AnimatedSlide><Hero /></AnimatedSlide></div>
+        <div id="projects"><Projects /></div>
+        <div id="skills"><Skills /></div>
+        <div id="about"><About /></div>
+        <div id="journey"><Journey /></div>
+        <div id="strengths"><Strengths /></div>
+        <div id="achievements"><Achievements /></div>
+        <div id="beyond"><Beyond /></div>
+        <div id="goals"><Goals /></div>
+        <div id="contact"><Contact /></div>
       </div>
     </div>
   )
