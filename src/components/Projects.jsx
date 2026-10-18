@@ -53,13 +53,12 @@ function Projects() {
           </div>
 
           <p style={{ marginBottom: '12px', color: '#E8DFEC', fontSize: '0.95rem' }}>
-            Built during my paid AI/ML internship at Right Soft Options Institute, Kochi. An intelligent web-based safety system for tourists and night workers, combining AI-driven risk analysis, real-time location tracking, and dual operating modes.
+            Built during my paid AI/ML internship at Right Soft Options Institute, Kochi. SafePassage is an intelligent web-based safety system for tourists and night workers, combining AI-driven risk analysis, real-time location tracking, and dual operating modes through a unified Django backend.
           </p>
           <ul className="square-list" style={{ fontSize: '0.95rem' }}>
-            <li>Designed dual operating modes (Tourist &amp; Night Worker) on a unified Django backend, with REST-based communication between modules</li>
-            <li>Contributed to an AI-driven Risk Analysis Engine combining rule-based scoring with a separately trained Random Forest model on NCRB crime data, achieving strong cross-validated accuracy</li>
-            <li>Implemented secure Role-Based Access Control and automated emergency SOS functionality with real-time alerts</li>
-            <li>Authored structured architecture and ML documentation, maintained via Git/GitHub</li>
+            <li>Engineered a robust backend and REST API architecture spanning 108 distinct routing endpoints on a unified Django framework</li>
+            <li>Developed and executed a comprehensive test suite of 79 automated test cases using the Django test runner to validate multi-tier user workflows and safety checks</li>
+            <li>Serialized Random Forest and Decision Tree machine-learning models using joblib and scikit-learn</li>
           </ul>
         </div>
       </AnimatedCard>
@@ -78,10 +77,10 @@ function Projects() {
               <strong style={{ color: '#D8B5E3' }}>Challenge:</strong> Automating multi-tiered scheduling logic for high-volume monthly workflows.
             </div>
 
-            <p style={{ fontSize: '0.9rem', marginBottom: '10px', color: '#E8DFEC' }}>Automated task scheduling and allocation for 1,000+ monthly collection requests.</p>
+            <p style={{ fontSize: '0.9rem', marginBottom: '10px', color: '#E8DFEC' }}>Managed over 1,000+ monthly collection requests across an isolated multi-portal system.</p>
             <ul className="square-list" style={{ fontSize: '0.88rem', marginTop: 'auto' }}>
-              <li>Designed a three-tier access control system with offline payment tracking and verification workflows</li>
-              <li>Documented system architecture, test cases, and workflows for maintainability</li>
+              <li>Designed an offline-first payment verification protocol for field operators</li>
+              <li>Implemented a three-tier access control system across the isolated portals</li>
             </ul>
           </div>
         </AnimatedCard>
