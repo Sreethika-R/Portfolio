@@ -14,10 +14,7 @@ function Projects() {
               <span style={{ fontSize: '0.8rem', color: '#D8B5E3', fontWeight: 600, textTransform: 'uppercase' }}>AI-Driven Personal Safety Platform</span>
               <h3 style={{ fontSize: '1.4rem', marginTop: '4px' }}>SafePassage</h3>
             </div>
-            <div className="project-card-actions">
-              <span style={{ fontSize: '0.85rem', color: '#EED7FF', fontWeight: 500 }}>Jan 2026 – Apr 2026</span>
-              <a className="project-source-link" href="https://github.com/Sreethika-R/SafePassage" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
-            </div>
+            <span style={{ fontSize: '0.85rem', color: '#EED7FF', fontWeight: 500 }}>Jan 2026 – Apr 2026</span>
           </div>
           <div className="project-metrics" role="group" aria-label="SafePassage project metrics">
             <span className="metric-badge"><strong>108</strong> routing endpoints</span>
@@ -38,6 +35,9 @@ function Projects() {
             <li>Developed and executed a comprehensive test suite of 79 automated test cases using the Django test runner to validate multi-tier user workflows and safety checks</li>
             <li>Serialized Random Forest and Decision Tree machine-learning models using joblib and scikit-learn</li>
           </ul>
+          <div className="project-source-container">
+            <a className="project-source-link" href="https://github.com/Sreethika-R/SafePassage" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </AnimatedCard>
 
@@ -49,7 +49,6 @@ function Projects() {
               <span style={{ fontSize: '0.8rem', color: '#D8B5E3', fontWeight: 600, textTransform: 'uppercase' }}>Logistics Automation</span>
               <h3 style={{ fontSize: '1.25rem', marginTop: '4px' }}>Haritha Connect</h3>
               <p style={{ fontSize: '0.8rem', color: '#EED7FF', fontWeight: 500, margin: '4px 0 8px 0' }}>Python, Django · Aug 2025 – Nov 2025</p>
-              <a className="project-source-link" href="https://github.com/Sreethika-R/HarithaConnect_Project" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
             </div>
             <div className="project-metrics" role="group" aria-label="Haritha Connect project metrics">
               <span className="metric-badge"><strong>1,000+</strong> monthly collection requests</span>
@@ -64,6 +63,9 @@ function Projects() {
               <li>Designed an offline-first payment verification protocol for field operators</li>
               <li>Implemented a three-tier access control system across the isolated portals</li>
             </ul>
+            <div className="project-source-container">
+              <a className="project-source-link" href="https://github.com/Sreethika-R/HarithaConnect_Project" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
           </div>
         </AnimatedCard>
 
